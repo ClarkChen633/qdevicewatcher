@@ -69,6 +69,8 @@ class QDeviceWatcherPrivate
 #endif //CONFIG_THREAD
         {
             //init();
+            watcher = NULL;
+            netlink_socket = -1;
         }
         ~QDeviceWatcherPrivate();
 
